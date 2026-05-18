@@ -1,0 +1,7 @@
+[build]
+  # publish the repository root (static site at repo root)
+  publish = "."
+  command = ""
+
+[dev]
+  command = ""
