@@ -126,6 +126,15 @@
             transition: transform 0.2s ease;
         }
 
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 1rem;
+            object-fit: cover;
+            display: block;
+        }
+
         .card:hover {
             transform: translateY(-5px);
         }
@@ -177,21 +186,21 @@
 <body>
 
     <header>
-        <h1>🌸 GlowTogether 🌸</h1>
-        <p>Uplifting, inspiring, and empowering women everywhere.</p>
+        <h1> Girls Who Code </h1>
+        <p>Lamorinda Chapter</p>
     </header>
 
     <nav aria-label="Main navigation">
         <a href="#home">Home</a>
         <a href="#movies">Movies</a>
-        <a href="#articles">Articles</a>
-        <a href="#charity">Charity</a>
+        <a href="#articles">Women in Computer Science</a>
+        <a href="#charity">Girls Who Code</a>
     </nav>
 
     <div class="container">
 
         <section id="home" aria-labelledby="home-heading">
-            <h2 id="home-heading">Welcome Sisterhood! ✨</h2>
+            <h2 id="home-heading">Welcome! </h2>
             <p>GlowTogether is a safe, cute space dedicated entirely to building women up. Our purpose is to inspire girls and women to realize their absolute power, rewrite systemic boundaries, and support one another globally. True empowerment means giving every woman the resources, confidence, and community she needs to live life on her own terms.</p>
             <p style="margin-top: 1rem;">Explore our curated guides below to find impactful cinema, educational reading, and real ways you can financially back the global feminist movement.</p>
         </section>
@@ -216,46 +225,48 @@
         </section>
 
         <section id="articles" aria-labelledby="articles-heading">
-            <h2 id="articles-heading">Must-Read Articles 📖</h2>
-            <p>Knowledge is power. Dive into these essential resources covering modern women's rights and personal growth:</p>
+            <h2 id="articles-heading">Women in Computer Science 📖</h2>
+            <p>Explore stories and achievements of women who changed technology and paved the way for the next generation of engineers and creators.</p>
             <div class="grid">
                 <div class="card">
-                    <h3>UN Women — Headlines</h3>
-                    <p>Global reporting on gender equality, policy updates, and progress toward the Sustainable Development Goals. <a href="https://www.unwomen.org/en/news" target="_blank" rel="noopener">Read more</a></p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="Portrait of Ada Lovelace" />
+                    <h3>The Legacy of Ada Lovelace</h3>
+                    <p>Ada Lovelace is widely regarded as the first computer programmer. Her notes on Charles Babbage's Analytical Engine contained what is now recognized as the first algorithm designed for machine execution. <a href="https://www.computerhistory.org/atchm/ada-lovelace-her-name-lives-on/" target="_blank" rel="noopener">Read more</a></p>
                 </div>
                 <div class="card">
-                    <h3>Bustle — Feminism & Culture</h3>
-                    <p>Accessible commentary and essays on contemporary culture, identity, and the lived experience of women across communities. <a href="https://www.bustle.com" target="_blank" rel="noopener">Visit Bustle</a></p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg/960px-Commodore_Grace_M._Hopper%2C_USN_%28covered%29_head_and_shoulders_crop.jpg" alt="Portrait of Grace Hopper" />
+                    <h3>Grace Hopper and the First Compiler</h3>
+                    <p>Rear Admiral Grace Hopper invented the first compiler and helped create COBOL, making programming more accessible and influencing modern software development. <a href="https://www.womenintech.com/grace-hopper" target="_blank" rel="noopener">Read more</a></p>
                 </div>
                 <div class="card">
-                    <h3>Harvard Business Review — Women at Work</h3>
-                    <p>Research-backed pieces on leadership, negotiation, and policy that affect women's careers and workplaces. <a href="https://hbr.org/topic/women" target="_blank" rel="noopener">Explore HBR</a></p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mary_Jackson_1979_Portrait_%28LRC-1979-B701_P_F002-07086%29.jpg/960px-Mary_Jackson_1979_Portrait_%28LRC-1979-B701_P_F002-07086%29.jpg" alt="Portrait of Mary Jackson" />
+                    <h3>Mary Jackson and NASA Engineering</h3>
+                    <p>Mary Jackson became NASA's first Black female engineer, breaking racial and gender barriers while contributing to spaceflight research and inspiring scientists worldwide. <a href="https://www.nasa.gov/content/mary-w-jackson-biography" target="_blank" rel="noopener">Read more</a></p>
                 </div>
                 <div class="card">
-                    <h3>Personal Growth: Self-Care & Boundaries</h3>
-                    <p>Practical guides for setting boundaries, managing burnout, and practicing sustainable self-care so you can thrive long-term.</p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Katherine_Johnson_1983.jpg/960px-Katherine_Johnson_1983.jpg" alt="Portrait of Katherine Johnson" />
+                    <h3>Katherine Johnson's Spaceflight Mathematics</h3>
+                    <p>Katherine Johnson’s trajectory calculations were critical to the success of early NASA missions, including John Glenn's orbital flight and the Apollo moon landing program. <a href="https://www.nasa.gov/content/katherine-johnson-biography" target="_blank" rel="noopener">Read more</a></p>
                 </div>
             </div>
         </section>
 
         <section id="charity" aria-labelledby="charity-heading">
-            <h2 id="charity-heading">Support the Movement ❤️</h2>
-            <p>Want to make a direct impact? Here are trustworthy organizations that deliver programs for women and girls around the world.</p>
+            <h2 id="charity-heading">Girls Who Code ❤️</h2>
+            <p>Girls Who Code is a nonprofit organization dedicated to closing the gender gap in technology. It teaches computing skills, builds confidence, and creates community for girls and young people who identify as girls so they can become future leaders in computer science.</p>
             <div class="grid">
                 <div class="card">
-                    <h3>Malala Fund</h3>
-                    <p>Works to ensure 12 years of free, safe, quality education for girls. Your donation supports advocacy and local education leaders.</p>
-                    <a class="btn" href="https://malala.org/donate" target="_blank" rel="noopener">Donate</a>
+                    <h3>What Girls Who Code Does</h3>
+                    <p>Girls Who Code provides free programs that help young people learn coding, design projects, and discover tech careers. The organization focuses on both skill-building and a supportive, inclusive community.</p>
                 </div>
                 <div class="card">
-                    <h3>Girls Who Code</h3>
-                    <p>Closing the gender gap in technology by teaching computing skills and creating community for young people who identify as girls.</p>
-                    <a class="btn" href="https://girlswhocode.com/donate" target="_blank" rel="noopener">Donate</a>
+                    <h3>Key Initiative: Girls Who Code Clubs</h3>
+                    <p>The Girls Who Code Clubs initiative offers after-school and summer club experiences where participants work on real projects, learn programming languages, and support each other through teamwork and mentorship.</p>
                 </div>
                 <div class="card">
-                    <h3>International Rescue Committee — Women & Girls</h3>
-                    <p>Provides critical protection, healthcare, and education to women and girls in humanitarian crises.</p>
-                    <a class="btn" href="https://www.rescue.org/donate" target="_blank" rel="noopener">Donate</a>
+                    <h3>How You Can Support</h3>
+                    <p>Donate, volunteer, or share the mission. Supporting Girls Who Code helps grow the next generation of women in technology and makes tech education more accessible for everyone.</p>
+                    <a class="btn" href="https://girlswhocode.com/donate" target="_blank" rel="noopener">Support Girls Who Code</a>
                 </div>
             </div>
             <p style="margin-top:1rem;">If you prefer to support local initiatives, consider volunteering time or donating to community shelters, legal aid clinics, and scholarship funds in your region.</p>
